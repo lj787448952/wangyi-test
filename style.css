@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1920px;
+    height: 1080px;
+}
+
+.block__bg {
+    background-image: url(./img/1.png);
+    width: 1920px;
+    height: 1080px;
+}
+
+.body {
+    width: 1426px;
+    height: 996.2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    background-image: url(./img/Stall\ image\ green.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_left {
+    background-image: url(./img/廠商展品輪播圖.png);
+    width: 170.2px;
+    height: 170.2px;
+    transform: translate(30%, 30%);
+}
+
+.body_middle {
+    background-image: url(./img/廠商首頁圖上傳圖.png);
+    transform: translate(3%, 23.5%);
+    width: 713.7px;
+    height: 399.6px;
+}
+
+.body_right {
+    width: 273.1px;
+    height: 353.8px;
+}
